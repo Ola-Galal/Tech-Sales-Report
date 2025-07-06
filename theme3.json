@@ -1,0 +1,87 @@
+{
+  "name": "Colorful Sales Theme",
+  "dataColors": [
+    "#00BFB2",
+    "#F45B69",
+    "#FFD166",
+    "#06D6A0",
+    "#118AB2",
+    "#EF476F",
+    "#8338EC",
+    "#FB5607"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#222222",
+  "tableAccent": "#118AB2",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "fontFamily": "Segoe UI",
+        "fontSize": 12,
+        "color": {
+          "solid": {
+            "color": "#222222"
+          }
+        }
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "color": {
+              "solid": {
+                "color": "#00BFB2"
+              }
+            },
+            "fontSize": 14
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": {
+              "solid": {
+                "color": "#6C757D"
+              }
+            },
+            "fontSize": 12
+          }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "header": [
+          {
+            "color": {
+              "solid": {
+                "color": "#118AB2"
+              }
+            },
+            "fontSize": 13
+          }
+        ],
+        "items": [
+          {
+            "color": {
+              "solid": {
+                "color": "#118AB2"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "titleText": {
+      "*": {
+        "color": {
+          "solid": {
+            "color": "#FB5607"
+          }
+        },
+        "fontSize": 16,
+        "fontFamily": "Segoe UI Semibold"
+      }
+    }
+  }
+}
